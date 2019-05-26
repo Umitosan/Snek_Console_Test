@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\board.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\snek.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\board.h" />
+    <ClInclude Include="..\snek.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9884D305-176A-42B5-A253-A07E53262F0E}</ProjectGuid>
@@ -114,15 +123,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\board.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\main.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\snek.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\snake_C++\v05\board.h" />
-    <ClInclude Include="..\..\..\..\Desktop\snake_C++\v05\snek.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

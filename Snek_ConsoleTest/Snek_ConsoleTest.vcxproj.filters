@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\board.cpp">
+    <ClCompile Include="..\board.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\main.cpp">
+    <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\snake_C++\v05\snek.cpp">
+    <ClCompile Include="..\snek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\snake_C++\v05\board.h">
+    <ClInclude Include="..\board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\snake_C++\v05\snek.h">
+    <ClInclude Include="..\snek.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
